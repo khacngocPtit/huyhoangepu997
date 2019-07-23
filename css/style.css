@@ -18,7 +18,8 @@
 }
 
 html {
-    font-size: 62.5%;/* 1rem = 10px */
+    font-size: 62.5%;
+    /* 1rem = 10px */
     font-weight: 400;
     width: 100%;
 }
@@ -68,7 +69,7 @@ button {
 }
 
 .contact__info {
-    display: flex;
+    display: inherit;
 }
 
 .contact__info .contact__icon {
@@ -80,7 +81,7 @@ button {
 .contact__info .contact__hotline,
 .contact__info .contact__mail,
 .contact__info .contact__add {
-    font-size: 1.3rem;
+    font-size: 100%;
 }
 
 .contact__info .contact__hotline h5,
@@ -92,9 +93,11 @@ button {
 
 /*-----menu--------*/
 
+
+/* 
 #menu .navbar {
     height: 40px;
-}
+} */
 
 .navbar__bg {
     background: linear-gradient(180deg, rgba(48, 75, 134, 1) 0%, rgba(58, 88, 151, 1) 100%);
@@ -156,7 +159,7 @@ button {
     box-shadow: none;
     border-radius: 5rem;
     height: 4rem;
-    width:28rem;
+    /* width: 28rem; */
     font-size: 1.5rem;
     padding: 1rem;
 }
@@ -598,8 +601,6 @@ span.text-red {
     color: red !important;
     z-index: 999 !important;
 }
-
-
 
 .get-mb {
     margin-bottom: 30px !important;
